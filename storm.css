@@ -1,0 +1,19 @@
+/*for å kunne senterpossisjoneren div'er uten tekst.*/
+#Solefald{
+    display: table;
+    margin: 0 auto;
+}
+
+#tekstDiv{
+    display: table;
+    margin: 0 auto;
+}
+
+/*Få to tekstkolonner til å oppføre seg pent*/
+#div1{
+    float: left;   
+}
+
+#div2{ 
+    float: left;
+}
