@@ -1,0 +1,15 @@
+/*kulepunktene ville ligge utenfor rammen og måtte settes på plass med en div.*/
+
+#wrap{
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+/*Overstyrer mainStyle og sørger for at containerbakgrunnen tilpasser seg innholdet*/
+#container{
+    height: auto;
+}
