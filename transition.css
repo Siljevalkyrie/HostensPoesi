@@ -1,0 +1,24 @@
+/* forklaring hentet fra http://cssreset.com/how-to-create-the-perfect-image-crossfade-with-css3-transitions*/
+
+/*transitionløsnigen min er en rev som nikker med hodet, to bilder ligger oppå hverandre,
+det ene photoshoppet, og med opasityfunksjonen ser man bildet under ved hover. 
+*/
+#revestrek {
+    position: relative;
+}
+
+#revestrek img {
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+#revestrek img.top:hover {
+    opacity: 0;
+}
+
+/*Overstyrer mainStyle og sørger for at containerbakgrunnen tilpasser seg innholdet*/
+#container{ 
+    height: 700px;
+}
