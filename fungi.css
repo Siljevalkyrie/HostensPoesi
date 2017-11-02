@@ -1,0 +1,21 @@
+/*posisjonering av div'ene sørger for at jeg kan legge teksten opp bildet. */
+#fungiWrap{
+    position: relative;  
+}
+
+#amanita{
+    position: absolute;
+}
+
+#hostdikt{
+    position: absolute;
+    color: rgb(250, 250, 250);
+    font-size: 1.6em;
+}
+
+/*Overstyrer mainStyle og sørger for at containerbakgrunnen tilpasser seg innholdet*/
+#container{ 
+    height: 700px;
+}
+
+
