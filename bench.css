@@ -1,0 +1,17 @@
+/*Blockquote fungerte ikke, så jeg satte inn standardkoden for dette.*/
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#tekst{
+    font-size: 1.3em;
+}
+
+/*Overstyrer mainStyle og sørger for at containerbakgrunnen tilpasser seg innholdet*/
+#container{
+    height: auto;
+}
